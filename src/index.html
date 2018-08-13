@@ -5,8 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -16,6 +20,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
+    <!-- start navigation -->
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
       <div class="container">
           <a class="navbar-brand" href="index.html">Gamma</a>
@@ -26,14 +31,15 @@
 
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav mr-auto">
-          <li class="active nav-link" href="index.html">Home</li>
-          <li class="nav-link" href="about.html">About</li>
-          <li class="nav-link" href="contact.html">Contact</li>
+          <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"> <a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
         </ul>
       </div>
 
     </div>
     </nav>
+    <!-- end navigation -->
 
     <!-- jumbotron  -->
     <div class="jumbotron">
@@ -52,14 +58,54 @@
       </div>
     </div>
 
-    <section id="middle"></section>
+    <section id="middle">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="img/demo1.jpg" alt="" class="demo img-thumbnail">
+            <h2>Lorem Ipsum</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor error vel eaque consectetur! Ipsa veniam repudiandae, a quia autem, aut atque culpa rerum quis dignissimos reiciendis, vitae amet ullam eius.</p>
+            <a href="#" class="btn btn-outline-secondary">Read more</a>
+          </div>
 
-    <section id="feature"></section>
+          <div class="col-lg-4">
+            <img src="img/demo2.jpg" alt="" class="demo img-thumbnail">
+            <h2>Lorem Ipsum</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor error vel eaque consectetur! Ipsa veniam repudiandae, a quia autem, aut atque culpa rerum quis dignissimos reiciendis, vitae amet ullam eius.</p>
+            <a href="#" class="btn btn-outline-secondary">Read more</a>
+          </div>
+
+          <div class="col-lg-4">
+            <img src="img/demo3.jpg" alt="" class="demo img-thumbnail">
+            <h2>Lorem Ipsum</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor error vel eaque consectetur! Ipsa veniam repudiandae, a quia autem, aut atque culpa rerum quis dignissimos reiciendis, vitae amet ullam eius.</p>
+            <a href="#" class="btn btn-outline-secondary">Read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="feature">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-4">
+            <h1>Gamma Features</h1>
+            <ul>
+              <li><i class="fa fa-check" aria-hidden="true">Lorem, ipsum dolor.</i></li>
+              <li><i class="fa fa-check" aria-hidden="true">Magni, voluptatibus labore?</i></li>
+              <li><i class="fa fa-check" aria-hidden="true">Vitae, illo animi.</i></li>
+              <li><i class="fa fa-check" aria-hidden="true">Officia, nulla temporibus.</i></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 offset-lg-2 col-md-5 offset-md-2"><img src="img/logo.png" alt="logo" class="big-logo"></div>
+        </div>
+      </div>
+    </section>
 
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-7 col-xs-12">
+          <div class="col-lg-6 col-md-6 col-sm-12">
             <ul>
               <li href="#">Home</li>
               <li href="#">About</li>
@@ -67,8 +113,8 @@
               <li href="#">Privacy</li>
             </ul>
           </div>
-          <div class="row">
-              <div class="col-lg-6 col-md-7 col-xs-12">
+          
+              <div class="col-lg-6 col-md-6 col-xs-12">
                 <p>Copyright &copy;2018, All Rights Reserved</p>
               </div>
         </div>
@@ -77,6 +123,7 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
